@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class LeetcodeTwoSum{
     public static int[] TwoSum(int arr[], int target){
         int n = arr.length;
