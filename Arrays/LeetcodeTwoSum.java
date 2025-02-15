@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class LeetcodeTwoSum{
     public static int[] TwoSum(int arr[], int target){
         int n = arr.length;
@@ -13,6 +14,7 @@ public class LeetcodeTwoSum{
         int arr[] = {2,7,11,15};
         int target = 9;
         int[] Result = TwoSum(arr, target);
-        System.out.println("Indexes are : " Arrays.toString(Result));
+        System.out.println("Indexes are: " + Arrays.toString(Result));
+
     }
 }
