@@ -1,12 +1,13 @@
-public class PositivenegativeSum{    public static double[] PositivenegativeSum(int arr[])        for(int i=0; i<arr.length; i++){
-
-    for(int i=0; i<arr.length; i++){
+public class PositivenegativeSum{ 
+     public static double[] PositivenegativeSum(int arr[]){     
+        for(int i=0; i<arr.length; i++){
         for(int j= i+1; j<arr.length; j++){
           if(arr[i] + arr[j] == 0){
             return new double[]{arr[i] , arr[j]};
           }
         }
       }
+    
       return null;
     }
     public static void main(String args[]){
