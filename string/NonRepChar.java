@@ -1,3 +1,4 @@
+
 public class NonRepChar{
     public static char NonRepChar(String s){
         for(int i =0; i<s.length(); i++){

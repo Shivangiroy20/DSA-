@@ -1,4 +1,4 @@
-package string;
+
 
 public class MyName{
   public static void printName(String str){
